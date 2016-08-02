@@ -25,6 +25,7 @@ export class ProtectedView extends React.Component {
                         <h3>{this.props.data}</h3>
                     </div>
     }
+		{this.props.children}
             </div>
         );
     }
